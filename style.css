@@ -3,6 +3,10 @@ html {
     box-sizing: 'border-box'
 }
 
+div {
+    display: block;
+}
+
 .center {
         text-align: center;
         }
@@ -17,14 +21,21 @@ img {
         display: inline;
         width: 200px;
         height: 100px;
+        vertical-align: middle;
     }
+
+
 #footer {
         width: 100%;
         border-top: solid 2px black;
         background-color: white;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         }
+
+#footer img {
+    width: 300px;
+}
 .guess {
         display: inline;
         font-size: 60px;
@@ -63,11 +74,11 @@ body {
     padding-left: 0px;
     }
 
-#app {
+/*#app {
     width: 100%;
     height: 100%;
     background-color: rgba(256, 256, 256, 0.5);
-}
+}*/
 
 
 #headers {
@@ -86,4 +97,16 @@ body {
 
 .shadow {
     box-shadow: 2px 2px 2px darkgray
+}
+
+.frame {
+    height: 100px;      /* equals max image height */
+    white-space: nowrap; 
+    text-align: center; margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 0%;
+    vertical-align: middle;
 }
