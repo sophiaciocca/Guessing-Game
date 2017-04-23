@@ -5,6 +5,7 @@ html {
 
 div {
     display: block;
+    font-family: 'Karla', sans-serif;
 }
 
 .center {
@@ -45,7 +46,11 @@ img {
         }
 
 #footer img {
-    width: 300px;
+    display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
 }
 .guess {
         display: inline;
