@@ -36,6 +36,10 @@ img {
         vertical-align: middle;
     }
 
+#title {
+    font-size: 50px;
+    font-weight: bold;
+}
 
 #footer {
         width: 100%;
