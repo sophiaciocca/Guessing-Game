@@ -23,6 +23,11 @@ div {
     background-color: black;
 }
 
+/*remove blue glow on input*/
+input:focus {
+    outline:none;
+}
+
 ul {
         list-style: none; 
         padding: 0;
@@ -79,7 +84,9 @@ img {
         left: 65px;
         width: 60px;
         height: 60px;
-        border: none;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
         border-radius: 50%;
 }
 
@@ -113,6 +120,12 @@ body {
 #menu-btns {
     margin-top: 0px;
     margin-bottom: 30px;
+}
+
+.menu-btn {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 
